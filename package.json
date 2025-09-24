@@ -1,0 +1,23 @@
+{
+  "name": "backend-js",
+  "version": "1.0.0",
+  "description": "primeiro backend em js da vida",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenDev-ill/backend-js.git"
+  },
+  "author": "Ronan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreenDev-ill/backend-js/issues"
+  },
+  "homepage": "https://github.com/GreenDev-ill/backend-js#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
