@@ -3,3 +3,8 @@ Primeiro projeto back-end em NodeJS
  npm init para iniciar o projeto e criar o .json
 para rodar arquivo js: node index.js
 
+Instalando
+npm i --save-dev jest cross-env
+ 
+Package.json
+    "test": "cross-env TEST=true node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
